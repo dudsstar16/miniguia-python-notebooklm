@@ -31,3 +31,60 @@ Outras recomendações obtidas pelo próprio NotebookLM
 Apostilas das aulas do IFB
 Artigos da Alura
 Materiais da Hashtag Treinamentos
+
+Estrutura do repositório
+
+README
+fontes/
+prompts/
+estudos/
+imagens/
+Engenharia de Prompts
+
+Durante o desenvolvimento foram realizados diversos testes de prompts para melhorar a qualidade das respostas fornecidas pelo NotebookLM.
+
+Exemplos:
+
+✔ Explique como se eu fosse iniciante.
+
+✔ Mostre um exemplo prático.
+
+✔ Compare listas e tuplas.
+
+✔ Explique passo a passo.
+
+✔ Gere exercícios sem mostrar a solução.
+
+✔ Crie um plano de estudos baseado neste conteúdo.
+
+Também foram registrados:
+
+limitações da IA;
+dificuldades encontradas;
+ajustes realizados nos prompts;
+estratégias que produziram melhores respostas.
+
+Entrega Final
+
+Este projeto reúne:
+
+- resumos organizados;
+- glossário de conceitos;
+- exemplos práticos;
+- guia de estudos;
+- prompts reutilizáveis para revisão dos conteúdos.
+- 
+Tecnologias
+
+- Google NotebookLM
+- Gemini
+- Markdown
+- GitHub
+  
+Próximos passos
+
+- Expandir a base de conhecimento.
+- Adicionar novos materiais.
+- Incluir conteúdos sobre Pandas, NumPy e Power BI.
+- Construir um guia para SQL.
+- Criar novos cadernos temáticos voltados para Ciência de Dados.
