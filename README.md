@@ -1,113 +1,49 @@
-🤖 Miniguia de Estudos em Python com NotebookLM
+# 🤖 Miniguia de Estudos em Python com NotebookLM
 
-Projeto desenvolvido durante o desafio da DIO com o objetivo de criar uma base de conhecimento especializada em Python, utilizando o Google NotebookLM como assistente de estudos para Análise de Dados, Automação de Processos e Ciência de Dados.
+<p align="center">
+  <img src="assets/banner.png" alt="Banner do Projeto" width="100%">
+</p>
 
-📖 Sobre o Projeto
+Projeto desenvolvido durante o desafio da **DIO** com o objetivo de estruturar uma base de conhecimento altamente especializada em Python. O projeto utiliza o **Google NotebookLM** como assistente analítico de estudos focado em Análise de Dados, Automação de Processos e Ciência de Dados.
 
-O objetivo deste projeto é transformar diversos materiais de estudo (PDFs, artigos, apostilas e videoaulas) em um caderno inteligente, onde o NotebookLM atua como um assistente especializado em Python.
+---
 
-Ao invés de pesquisar em diversas fontes separadamente, a IA consulta apenas os materiais selecionados, fornecendo respostas contextualizadas, resumos, explicações e planos de estudo personalizados.
+## 📖 Sobre o Projeto
 
-💡 A proposta é construir uma biblioteca de conhecimento reutilizável, organizada e em constante evolução.
+O coração deste projeto é transformar múltiplos materiais brutos (PDFs acadêmicos, roadmaps corporativos, artigos e videoaulas) em um **segundo cérebro digital**. Através do NotebookLM, a Inteligência Artificial atua estritamente sobre as fontes fornecidas, garantindo respostas fundamentadas e livres de alucinações.
 
-🎯 Objetivos
-📚 Construir um guia de estudos de Python do nível iniciante ao avançado;
-🐍 Aprender Python para Análise de Dados;
-⚙️ Estudar Python aplicado à Automação de Processos;
-🏛️ Consolidar conceitos de Programação Orientada a Objetos (POO);
-🧠 Criar uma base de conhecimento especializada utilizando IA;
-✍️ Documentar técnicas de Engenharia de Prompts para obter respostas cada vez melhores.
+O resultado é esta biblioteca de documentação viva, estruturada e em constante evolução para acelerar a curva de aprendizado.
 
-📂 Estrutura do Repositório
+---
 
-📁 miniguia-python-notebooklm
+## 🎯 Objetivos de Aprendizado
+
+*   **📚 Base Sólida:** Construir um guia de estudos de Python do nível iniciante ao avançado.
+*   **🐍 Foco em Dados:** Dominar manipulação e estruturação de dados.
+*   **⚙️ Automação:** Aplicar scripts em Python para otimizar rotinas e processos.
+*   **🏛️ Paradigma POO:** Consolidar conceitos estruturais de Programação Orientada a Objetos.
+*   **🧠 IA como Copiloto:** Documentar e refinar técnicas de Engenharia de Prompts para estudo ativo.
+
+---
+
+## 📂 Estrutura do Repositório
+
+O repositório foi arquitetado de forma modular para manter os conceitos teóricos, as mídias e a engenharia de prompts isolados e organizados:
+
+```text
+miniguia-python-notebooklm/
 │
-├── 📄 README.md
-├── 📁 fontes/
-├── 📁 prompts/
-├── 📁 estudos/
-└── 📁 imagens/
-
-📚 Fontes de Conhecimento
-
-🎥 Videoaulas
-Curso em Vídeo
-Hashtag Treinamentos
-Alura
-Outras recomendações obtidas pelo NotebookLM
-
-📄 Materiais em Texto
-Apostilas das aulas do IFB
-Artigos da Alura
-Materiais da Hashtag Treinamentos
-
-🤖 Engenharia de Prompts
-
-Durante a construção deste NotebookLM foram realizados diversos testes para identificar quais estratégias produzem respostas mais completas e didáticas.
-
-💬 Exemplos de Prompts
-
-Explique este conteúdo como se eu fosse iniciante.
-Mostre exemplos práticos utilizando Python.
-Compare listas, tuplas e dicionários.
-Explique passo a passo.
-Crie exercícios sem apresentar a solução.
-Monte um plano de estudos baseado neste material.
-Gere um resumo em formato de mapa mental.
-Quais são os erros mais comuns sobre este assunto?
-
-Além dos prompts, também serão documentados:
-
-dificuldades encontradas;
-limitações da IA;
-melhorias realizadas;
-estratégias que geraram melhores respostas.
-
-📒 Miniguia de Estudos
-
-Ao final do projeto, este repositório reunirá:
-
-✅ Resumos estruturados;
-✅ Glossário de conceitos;
-✅ Exemplos práticos;
-✅ Guia de estudos;
-✅ Prompts reutilizáveis;
-✅ Anotações importantes;
-✅ Boas práticas em Python.
-
-🛠️ Tecnologias Utilizadas
-
-Google NotebookLM
-Gemini
-Markdown
-GitHub
-
-🚀 Roadmap
-
-- Criar o NotebookLM
-
-- Definir objetivo do projeto
-
-- Organizar todas as fontes de estudo
-
-- Construir o guia de estudos em Python
-
-- Criar glossário dos principais conceitos
-
-- Documentar engenharia de prompts
-
-- Adicionar exercícios e desafios
-
-- Expandir para Pandas
-
-- Expandir para NumPy
-
-- Expandir para SQL
-
-- Expandir para Power BI
-
-🎯 Objetivo Final
-
-Este repositório não pretende ser apenas a entrega de um desafio da DIO, mas sim uma base de conhecimento viva, construída ao longo dos estudos, servindo tanto como material de consulta pessoal quanto como apoio para estudantes que desejam aprender Python aplicado à área de Dados.
-
-💙 "Aprender é organizar conhecimento. Compartilhar é potencializar esse aprendizado."
+├── README.md                  # Apresentação principal do projeto
+├── TEXTS.md                   # Curadoria e análise das fontes em texto
+├── VIDEOS.md                  # Organização didática das fontes de vídeo
+│
+├── assets/                    # Imagens, fluxogramas e recursos visuais do projeto
+│
+├── prompts/
+│   └── PROMPTS.md             # Histórico documentado de Engenharia de Prompts
+│
+└── estudos/                   # Guias detalhados gerados a partir do Estúdio
+    ├── relatorio_tecnico.md   # Fundamentos de algoritmos e execução linear
+    ├── guia_definitivo.md     # Estratégia de portfólio e boas práticas (PEP 8)
+    ├── cronograma_mensal.md   # Roteiro planejado para as primeiras semanas
+    └── arquitetura_poo.md     # Classes, objetos, métodos e encapsulamento
