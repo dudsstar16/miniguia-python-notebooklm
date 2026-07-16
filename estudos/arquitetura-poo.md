@@ -6,8 +6,9 @@ A POO é um paradigma de programação que estrutura o software mapeando element
 
 ## 🧩 Elementos Fundamentais da POO
 
-### 1. Classe vs. Objeto
-*   **Classe (Molde):** É o projeto ou gabarito estrutural. Define quais características e ações o elemento terá.
+![Analogia de Classes e Objetos](../imagem/analogia-poo.png)
+
+*   **Classe (Molde):** É o projeto ou gabarito estrutural.... Define quais características e ações o elemento terá.
 *   **Objeto (Instância):** É a representação física/real baseada na classe.
 
 ### 2. Atributos e Métodos
