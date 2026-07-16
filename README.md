@@ -1,7 +1,7 @@
 # 🤖 Miniguia de Estudos em Python com NotebookLM
 
 <p align="center">
-  <img src="assets/banner.png" alt="Banner do Projeto" width="100%">
+  <img src="imagens/banner.png" alt="Banner do Projeto" width="100%">
 </p>
 
 Projeto desenvolvido durante o desafio da **DIO** com o objetivo de estruturar uma base de conhecimento altamente especializada em Python. O projeto utiliza o **Google NotebookLM** como assistente analítico de estudos focado em Análise de Dados, Automação de Processos e Ciência de Dados.
